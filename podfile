@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'NSNetworkManagerExample' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for NSNetworkManagerExample
+
+pod 'YYCache'
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'TSMessages'
+
+  target 'NSNetworkManagerExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'NSNetworkManagerExampleUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
